@@ -1,5 +1,5 @@
 {
     "copy-from-recipe": {
-        "etc/": "%ETC_DIR%/"
+        "etc/": "%BIN_DIR%/../etc"
     }
 }
