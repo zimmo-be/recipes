@@ -1,0 +1,38 @@
+<ruleset name="zimmo">
+    <description>Code style</description>
+
+    <file>../../src/</file>
+
+    <rule ref="PSR1"/>
+    <rule ref="PSR2"/>
+    <rule ref="PEAR">
+        <exclude name="Generic.Commenting.DocComment"/>
+        <exclude name="PEAR.Commenting.FileComment"/>
+        <exclude name="PEAR.Commenting.ClassComment"/>
+        <exclude name="PEAR.Commenting.FunctionComment.Missing"/>
+        <exclude name="PEAR.Commenting.FunctionComment.MissingParamComment"/>
+        <exclude name="PEAR.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+        <exclude name="PEAR.NamingConventions.ValidFunctionName.PrivateNoUnderscore"/>
+        <exclude name="PEAR.WhiteSpace.ScopeIndent.IncorrectExact"/>
+        <exclude-pattern>Kernel.php</exclude-pattern>
+    </rule>
+
+    <rule ref="Squiz.PHP">
+        <!-- Clashes with PHP7's returntypes `function a(x): ?array` -->
+        <exclude name="Squiz.PHP.DisallowInlineIf.Found"/>
+        <!-- `return $a == 1 || $a == 2` will fail -->
+        <exclude name="Squiz.PHP.DisallowBooleanStatement.Found"/>
+        <!-- Makes Swagger annotations unreadable -->
+        <exclude name="Squiz.Commenting.DocCommentAlignment.SpaceAfterStar"/>
+    </rule>
+
+    <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
+
+    <rule ref="Generic.Classes.DuplicateClassName"/>
+    <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
+    <rule ref="Generic.Commenting.Todo"/>
+    <rule ref="Generic.Commenting.Fixme"/>
+
+    <rule ref="Squiz.PHP.Eval"/>
+    <rule ref="Squiz.PHP.NonExecutableCode"/>
+</ruleset>
