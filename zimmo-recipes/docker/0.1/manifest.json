@@ -1,4 +1,7 @@
 {
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    },
     "bundles": {
         "ZimmoRecipes\\Docker\\DockerBundle": ["all"]
     }
