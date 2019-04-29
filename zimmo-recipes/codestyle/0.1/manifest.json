@@ -3,6 +3,6 @@
         "etc/": "%BIN_DIR%/../etc"
     },
     "composer-scripts": {
-        "rm phpcs.xml.dist": "script"
+        "rm -f phpcs.xml.dist": "script"
     }
 }
