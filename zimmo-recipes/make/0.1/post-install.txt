@@ -1,0 +1,8 @@
+<bg=blue;fg=white>              </>
+<bg=blue;fg=white> What's next? </>
+<bg=blue;fg=white>              </>
+
+  * <fg=blue>Run</> maker:
+    1. Change to the project directory;
+    2. Execute the <comment>bin/console make:makefile</> command;
+    2. If you want to regenerate the setup, use the --regenerate option:
