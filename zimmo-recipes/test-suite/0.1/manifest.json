@@ -1,7 +1,8 @@
 {
     "copy-from-recipe": {
         "src/": "%SRC_DIR%/",
-        "tests/": "%SRC_DIR%/../tests/"
+        "tests/": "%SRC_DIR%/../tests/",
+        "config/": "%CONFIG_DIR/%"
     },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
