@@ -1,8 +1,8 @@
 {
     "copy-from-package": {
-        "src/Controller": "%SRC_DIR%/Controller",
-        "tests": "%SRC_DIR%/../tests",
-        "bin/phpunit": "%BIN_DIR/phpunit%"
+        "src/Controller/": "%SRC_DIR%/Controller",
+        "tests/": "%SRC_DIR%/../tests",
+        "bin/phpunit": "%BIN_DIR%/phpunit"
     },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
