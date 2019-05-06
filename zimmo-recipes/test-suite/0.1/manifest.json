@@ -1,8 +1,7 @@
 {
-    "copy-from-package": {
+    "copy-from-recipe": {
         "src/": "%SRC_DIR%/",
-        "tests/": "%SRC_DIR%/../tests/",
-        "bin/phpunit": "%BIN_DIR%/phpunit"
+        "tests/": "%SRC_DIR%/../tests/"
     },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
