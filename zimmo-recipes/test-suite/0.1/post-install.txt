@@ -3,6 +3,6 @@
 <bg=blue;fg=white>              </>
 
   * <fg=blue>Run</> maker:
-    1. Change to the project directory;
-    2. Execute the <comment>bin/console make:test-suite</> command;
-    3. If you want to regenerate the setup, use the --regenerate option;
+    1. Change to the project directory
+    2. Execute the <comment>bin/console make:test-suite</> command
+    3. If you want to regenerate the setup, use the --regenerate option
