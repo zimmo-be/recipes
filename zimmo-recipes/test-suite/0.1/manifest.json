@@ -1,7 +1,7 @@
 {
     "copy-from-package": {
-        "src/Controller/": "%SRC_DIR%/Controller",
-        "tests/": "%SRC_DIR%/../tests",
+        "src/": "%SRC_DIR%/",
+        "tests/": "%SRC_DIR%/../tests/",
         "bin/phpunit": "%BIN_DIR%/phpunit"
     },
     "composer-scripts": {
