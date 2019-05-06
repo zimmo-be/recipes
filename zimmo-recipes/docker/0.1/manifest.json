@@ -3,6 +3,6 @@
         "cache:clear": "symfony-cmd"
     },
     "bundles": {
-        "ZimmoRecipes\\Docker\\DockerBundle": ["all"]
+        "ZimmoRecipes\\Docker\\DockerBundle": ["dev"]
     }
 }
