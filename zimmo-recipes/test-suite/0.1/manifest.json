@@ -1,11 +1,11 @@
 {
     "copy-from-recipe": {
-        "src/": "%SRC_DIR%/",
-        "tests/": "%SRC_DIR%/../tests/",
         "config/": "%CONFIG_DIR%/"
     },
     "composer-scripts": {
-        "cache:clear": "symfony-cmd"
+        "cache:clear": "symfony-cmd",
+        "rm -f .env.test": "script",
+        "rm -f phpunit.xml.dist": "script"
     },
     "bundles": {
         "ZimmoRecipes\\TestSuite\\TestSuiteBundle": ["dev"]
