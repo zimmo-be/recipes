@@ -3,7 +3,8 @@
         "config/": "%CONFIG_DIR%/"
     },
     "composer-scripts": {
-        "cache:clear": "symfony-cmd"
+        "cache:clear": "symfony-cmd",
+        "rm -f .env.test": "script"
     },
     "bundles": {
         "ZimmoRecipes\\TestSuite\\TestSuiteBundle": ["dev"]
