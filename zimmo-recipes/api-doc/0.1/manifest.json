@@ -1,0 +1,11 @@
+{
+    "copy-from-recipe": {
+        "public/": "%PUBLIC_DIR%/"
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    },
+    "bundles": {
+        "ZimmoRecipes\\ApiDoc\\ApiDocBundle": ["dev"]
+    }
+}
