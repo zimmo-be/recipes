@@ -4,5 +4,5 @@
 
   * <fg=blue>Run</> maker:
     1. Change to the project directory
-    2. Execute the <comment>bin/console make:test-doc</> command
+    2. Execute the <comment>bin/console make:api-doc</> command
     3. Careful, the maker will always regenerate all files to overwrite files from the nelmio recipe
