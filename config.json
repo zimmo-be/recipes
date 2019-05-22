@@ -1,6 +1,7 @@
 {
 	"projects": {
 	    "01DA8H9XH6F672A6BC19JS9STJ": "Zimmo User API",
-	    "01DA8GG4X60JRHWQMXB6JDFC4G": "Zimmo CMS API client"
+	    "01DA8GG4X60JRHWQMXB6JDFC4G": "Zimmo CMS API client",
+	    "01DBG0QVFJTTQ055GVB6N8GMAT": "Zimmo User API client"
 	}
 }
