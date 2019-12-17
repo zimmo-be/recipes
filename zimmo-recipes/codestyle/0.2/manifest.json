@@ -1,0 +1,8 @@
+{
+    "copy-from-recipe": {
+        "etc/": "%BIN_DIR%/../etc"
+    },
+    "composer-scripts": {
+        "rm -f phpcs.xml.dist": "script"
+    }
+}
