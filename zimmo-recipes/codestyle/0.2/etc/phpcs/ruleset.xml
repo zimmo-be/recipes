@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ruleset
+        name="Zimmo"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../vendor/squizlabs/php_codesniffer/phpcs.xsd"
+>
+    <arg name="basepath" value="."/>
+    <arg name="extensions" value="php"/>
+    <arg name="parallel" value="80"/>
+    <arg name="cache" value=".phpcs-cache"/>
+    <arg name="colors"/>
+
+    <arg value="nps"/>
+
+    <file>./../../src/</file>
+    <exclude-pattern>Migrations/*</exclude-pattern>
+
+    <rule ref="Doctrine">
+        <exclude name="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
+        <exclude name="Squiz.Strings.DoubleQuoteUsage"/>
+    </rule>
+
+    <rule ref="SlevomatCodingStandard.ControlStructures.RequireYodaComparison"/>
+</ruleset>
